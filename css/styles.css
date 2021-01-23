@@ -56,6 +56,12 @@ body, html {
     @media (min-width: 750px) {
       .hero-text h1 {
         font-size: 40px; } }
+    @media (min-width: 935px) {
+      .hero-text h1 {
+        font-size: 65px; } }
+    @media (min-width: 1200px) {
+      .hero-text h1 {
+        font-size: 80px; } }
   .hero-text p {
     font-family: "Josefin Sans", sans-serif;
     color: #EDEDED;
@@ -70,6 +76,12 @@ body, html {
     @media (min-width: 700px) {
       .hero-text p {
         font-size: 18px; } }
+    @media (min-width: 935px) {
+      .hero-text p {
+        font-size: 24px; } }
+    @media (min-width: 1200px) {
+      .hero-text p {
+        font-size: 35px; } }
   .hero-text .btn {
     font-size: 3vw;
     text-transform: uppercase;
