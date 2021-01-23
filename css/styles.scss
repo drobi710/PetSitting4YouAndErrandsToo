@@ -1,0 +1,26 @@
+$header-font: 'Montserrat', sans-serif;
+$body-font: 'Josefin Sans', sans-serif;
+$green: #4F6C6B;
+$dark: #1E292B;
+$pink: #F7DDD9;
+$light: #EDEDED;
+
+
+body {
+    font-family: $body-font;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button {
+    $body-font: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
